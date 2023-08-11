@@ -1,0 +1,107 @@
+<!-- RMIT University Vietnam
+Course: COSC2430 Web Programming
+Semester: 2023B
+Assessment: Assignment 1
+Author: Tran Hoang Son
+ID: s3978450
+Acknowledgement: favicon.io - To resize my logo for the web favicon
+boxicons.com - To get custom web icons in text -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="icon" type="image/x-icon" href="images/favicon-16x16.png">
+    <script src="script.js" defer></script>
+    <title>Bookshop website | Non-Fiction</title>
+</head>
+<body>
+    <header>
+        <div class="navlogo">
+            <a href="index.html" class="logo"><i class='bx bxs-book-reader'></i></a>
+            <a href="index.html"><span class="store_title">Bookstore</span></a>
+        </div>
+        <label class="hamburger-menu">
+            <input type="checkbox">
+        </label>
+        <div class="navbar">
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="fiction.html">Fiction</a>
+                <a class="active" href="nonfiction.html">Non-fiction</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section>
+            <h1 class="sub_cat_title">Non-Fiction Books</h1>
+        </section>
+        <section>
+            <div class="cat_header">
+                <h1>
+                    <a href="nonfiction.html">History Books</a>
+                </h1>
+            </div>
+            <div class="row">
+                <div class="book">
+                    <a class="book_title" href="bookdetail_nonfic1.html">
+                        <img src="images\nonfic_his_hands.jpg" alt="Hands of Time: A Watchmaker's History">
+                        <div>Hands of Time: A Watchmaker's History</div>
+                    </a>
+                </div>
+                <div class="book">
+                    <a class="book_title" href="bookdetail_nonfic2.html">
+                        <img src="images\nonfic_his_wheels.png" alt="Two Wheels Good: The History and Mystery of the Bicycle">
+                        <div>Two Wheels Good: The History and Mystery of the Bicycle</div>
+                    </a>
+                </div>
+                <div class="book">
+                    <a class="book_title" href="bookdetail_nonfic3.html">
+                        <img src="images\nonfic_his_things.png" alt="The Things We Make: The Unknown History of Invention from Cathedrals to Soda Cans">
+                        <div>The Things We Make: The Unknown History of Invention from Cathedrals to Soda Cans</div>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="cat_header">
+                <h1>
+                    <a href="nonfiction.html">Science & Technology Books</a>
+                </h1>
+                <div class="row">
+                <div class="book">
+                    <a class="book_title" href="bookdetail_nonfic4.html">
+                        <img src="images\nonfic_scitech_guardians.jpg" alt="Guardians of the Trees">
+                        <div>Guardians of the Trees: A Journey of Hope Through Healing the Planet: A Memoir</div>
+                    </a>
+                </div>
+                <div class="book">
+                    <a class="book_title" href="bookdetail_nonfic5.html">
+                        <img src="images\nonfic_scitech_day.jpg" alt="The Day the World Stops Shopping">
+                        <div>The Day the World Stops Shopping: How Ending Consumerism Saves the Environment and Ourselves</div>
+                    </a>
+                </div>
+                <div class="book">
+                    <a class="book_title" href="bookdetail_nonfic6.html">
+                        <img src="images\nonfic_scitech_speak.jpg" alt="To Speak for the Trees">
+                        <div>To Speak for the Trees: My Life's Journey from Ancient Celtic Wisdom to a Healing Vision of the Forest</div>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <nav>
+            <a href="#">About Us</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms</a>
+            <a href="#">Copyright</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </footer>
+</body>
+</html>
